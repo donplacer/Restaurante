@@ -1,0 +1,179 @@
+/* Made with love by Mutiullah Samim*/
+
+
+html,body{
+
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+
+background-attachment: fixed;
+
+}
+
+.h-100{
+
+/*border: 2px solid red;*/
+width: 600px;
+display: flex;
+justify-content: center;
+
+}
+
+.container{
+height: 100%;;
+
+width: 700px;
+margin: 0 auto;
+/*border: 10px solid black;*/
+
+display: flex;
+justify-content: center;
+}
+
+
+.card{
+
+height: 700px;
+width: 450px;
+text-align: center;
+margin-top: 100px;
+
+
+
+background-color: rgba(0,0,0,0.5) !important;
+
+}
+
+.form-control{
+   height: 20px;width: 80%;
+
+margin-right: 20px;
+}
+
+
+.social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: #FFC312;
+}
+
+.social_icon span:hover{
+color: white;
+cursor: pointer;
+}
+
+.card-header{
+
+   display: flex;
+   justify-content: flex-start;
+  /* border: 2px solid purple;*/
+
+   
+
+}
+
+.card-header h3{
+color: white;
+font-size: 30px;
+margin-left: 30px;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.contenedorUsuPasword{
+   display: -webkit-flex;
+   display: -ms-flexbox;
+   display: flex;
+   justify-content: space-around;
+   height: 100px;
+
+   margin-left: 30px;
+   flex-direction: column;
+  /* border: 1px solid yellow;*/
+}
+
+.input-group{
+height: 38px;
+width: 100%;
+display: flex;
+justify-content: flex-end;
+
+
+
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+   height: 30px;
+color: white;
+display: flex;
+justify-content: flex-start;
+margin-left: 30px;
+/*border: 1px solid blue;*/
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+
+}
+
+.btnLogin{
+
+display: flex;
+justify-content: center;
+
+
+
+}
+
+.login_btn{
+/*border: 2px solid red;*/
+
+   height: 40px;
+color: black;
+background-color: #FFC312;
+width: 150px;
+}
+
+.login_btn:hover{
+color: black;
+/*background-color: white;*/
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
+
+.card-footer{
+   margin-top: 30px;
+height: 500px;;
+/*border: 3px solid Red*/
+display: flex;
+justify-content: center;
+
+margin-left: 30px;
+}
